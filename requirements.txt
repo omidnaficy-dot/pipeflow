@@ -1,0 +1,14 @@
+# وابستگی‌های PipeFlow
+# نصب:  pip install -r requirements.txt
+
+# رابط کاربری
+streamlit>=1.30
+
+# نمودار تعاملی
+plotly>=5.18
+
+# هسته محاسباتی (core/pipe.py به scipy.optimize.brentq نیاز دارد)
+scipy>=1.10
+
+# numpy معمولاً به‌عنوان وابستگی scipy نصب می‌شود؛ برای صراحت اینجا هم آورده شده است.
+numpy>=1.24
